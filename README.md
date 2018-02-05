@@ -12,12 +12,12 @@ Neighborhood Map is a single page application showing the map of Neighborhood. T
 * Google Street View Image API
 * FourSquare API
 
-## Reference materials
-(https://developers.google.com/maps/documentation/javascript/)
-(https://developer.foursquare.com/)
-(https://www.w3schools.com/)
-(http://knockoutjs.com/documentation/introduction.html)
-(https://developers.google.com/maps/documentation/javascript/markers)
+* ## Reference materials
+* (https://developers.google.com/maps/documentation/javascript/)
+* (https://developer.foursquare.com/)
+* (https://www.w3schools.com/)
+* (http://knockoutjs.com/documentation/introduction.html)
+* (https://developers.google.com/maps/documentation/javascript/markers)
 
 ## Run
 All you need to do fork and clone this repository and open index.html file in your favorite browser. If you want to use your own Google Maps API key update the index.html file ```<script async defer
