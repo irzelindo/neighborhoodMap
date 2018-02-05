@@ -7,12 +7,28 @@ this css stylesheet make a breakpoint in website when its width is less then 60%
 *
 *
 */
+@media only screen and (max-width: 55.25em){
+  #neighMap {
+    font-size: 0.80rem;
+  }
+  #search-box {
+    font-size: 0.60rem;
+  }
+  .list-items {
+    font-size: 13px;
+  }
+  #sidebar {
+  }
+}
+@media only screen and (max-width: 25.25em){
+  #sidebar {
+    background-color: antiquewhite;
+  }
+  .list-items {
+    font-size: 10px;
+    color: black;
+  }
 #neighMap {
-  font-size: 0.80rem;
+  color: black;
 }
-#search-box {
-  font-size: 0.60rem;
-}
-.list-items {
-  font-size: 13px;
 }

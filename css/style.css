@@ -46,6 +46,7 @@ ul {
   max-width: 25%;
   color: black;
   background-color: black;
+  overflow: auto;
 }
 #neighMap {
   color: white;
