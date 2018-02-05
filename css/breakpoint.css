@@ -13,3 +13,6 @@ this css stylesheet make a breakpoint in website when its width is less then 60%
 #search-box {
   font-size: 0.60rem;
 }
+.list-items {
+  font-size: 13px;
+}
