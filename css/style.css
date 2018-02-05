@@ -1,0 +1,87 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 12px;
+  color: #424242;
+  margin: auto;
+  height: 100%;
+}
+
+h1, h2, h3, h4, h5 {
+  margin: 0;
+}
+
+header, nav, footer, section, article, div {
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+/* container styling goes here */
+#container {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  height: 100%;
+}
+/* main area of content that is showing sidebar and map */
+.content {
+  flex: 1;
+}
+/* aside #sidebar styling goes here */
+#sidebar {
+  border-right: 2px solid;
+  padding: 1.35em;
+  max-width: 25%;
+  color: black;
+  background-color: black;
+}
+#neighMap {
+  color: white;
+  margin-bottom: 1.2rem;
+  text-align: center;
+  font-size: 1.5rem;
+}
+#search-box {
+  width: 100%;
+  height: 2em;
+  margin-bottom: 10px;
+  color: black;
+  font-weight: bold;
+  font-size: 1rem;
+}
+.items {
+  text-decoration: none;
+}
+li:hover {
+  text-decoration: none;
+  color: grey;
+}
+.list-items {
+  color: white;
+  font-weight: bold;
+  font-size: 1rem;
+  line-height: 2em;
+  border-bottom: 1px solid white;
+}
+/* main area #map styling goes here */
+/* Always set the map height explicitly to define the size of the div
+       * element that contains the map. */
+#map {
+  height: 100%;
+}
+#pano {
+  width: 200px;
+  height: 200px;
+}
