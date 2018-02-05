@@ -81,7 +81,7 @@ function ViewModel() {
      }
   };
   //onclick list items open and populate InfoWindow
-  this.populateAndBounceMark = function(){
+  this.populateAndAnimateMark = function(){
     self.populateInfoWindow(this, self.largeInfowindow);
     this.setAnimation(google.maps.Animation.BOUNCE);
     setTimeout((function() {
@@ -114,7 +114,7 @@ function ViewModel() {
       // Push the marker to our array of markers.
       this.markers.push(this.marker);
       //create an onclick event to open infowindow for each marker and bounce marker
-      this.marker.addListener('click', self.populateAndBounceMark);
+      this.marker.addListener('click', self.populateAndAnimateMark);
       self.bounds.extend(this.markers[i].position);
     }
     // extend the boundaries of map to fit each marker
