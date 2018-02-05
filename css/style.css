@@ -85,3 +85,7 @@ li:hover {
   width: 200px;
   height: 200px;
 }
+.foursquare-data {
+  line-height: 0.70em;
+  color: maroon;
+}
