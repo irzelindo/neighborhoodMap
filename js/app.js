@@ -119,7 +119,7 @@ function ViewModel() {
   }, this);
   // gives error messgae if google maps api is unable to load map
   function errorLoadingMap(){
-    alert('There is an issue loading the Foursquare API. Please refresh your page or try again. ')
+    alert('There is an issue loading the Foursquare API. Please refresh your page or try again. ');
   }
 } //ViewModel ends here
 // starts the application
