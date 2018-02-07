@@ -20,13 +20,14 @@ this css stylesheet make a breakpoint in website when its width is less then 60%
   #sidebar {
   }
 }
-@media only screen and (max-width: 25.25em){
+@media only screen and (max-width: 33.25em){
   #sidebar {
     background-color: antiquewhite;
   }
   .list-items {
     font-size: 10px;
     color: black;
+    border-bottom: 1px solid black;
   }
 #neighMap {
   color: black;

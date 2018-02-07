@@ -1,6 +1,6 @@
 var locations = [
   {
-    title: "Saad's",
+    title: "Saad's Halal Restaurant",
     location: {
       lat: 39.9549907,
       lng: -75.21186260
@@ -28,14 +28,14 @@ var locations = [
     }
   },
   {
-    title: 'Geno’s Steaks',
+    title: "Geno's Steaks",
     location: {
       lat: 39.933824,
       lng: -75.158839399
     }
   },
   {
-    title: 'The Gallery at East Market',
+    title: 'The Gallery at Market East',
     location: {
       lat: 39.9521028,
       lng: -75.155814999
@@ -63,7 +63,7 @@ var locations = [
     }
   },
   {
-    title: 'The Franklin Institute Library',
+    title: 'The Franklin Institute',
     location: {
       lat: 39.958594,
       lng: -75.1726218
